@@ -1,0 +1,38 @@
+Since im a glutten for punishment im gonna attempt to make it so you can use this mod with your mods so you can make a custom UI. I should also tell you that there is no way to make a custom UI that is not from clicking an object
+
+--AT THE CURRENT STAGE YOU WILL ONLY BE ABLE TO USE THE UITESTER OBJECT SO YOU CAN SEE WHATS NEW IN THE MOD
+--You are able to use this with your mods now although the power is limited and it is fairly clunky. (Documentation not avaliable yet)
+
+--When this mod is complete I will publish the source code to anyone who wishes to try and improve on this I DO NOT WANT TO BE THE ONLY ONE DOING THIS
+--There will also a complete guide on how to use this for your mod so you dont need to use the source code and put it all into your mod. If you need a custom UI just download the mod and follow the guide
+
+--Todo List
+Y=Done, N=Not done, ?=WIP/Incomplete, X=Not possible/Canceled
+
+--Base Additions //needed before I can work on most things
+[Y] Sprites
+[?] Objects
+[Y] Persistant UI (Saves the managed UI on map reload)
+[N] Current pirsoner detection (escape mode)
+[X] Trailing UI (moves with your screen)
+[Y] Icon system
+[X] Dynamic Sizing
+[X] Window names
+[Y] Dynamic UI (Text can be edited on demand)
+[?] less clunky UI management 
+
+--Inputs
+[N] Wait and accept (Escape mode: if it pops up you need to wait x seconds before something is accepted)
+[N] Buttons (This will be using the object UI system meaning you will have to click the button and click from an array of buttons)
+[N] Collision Points (Escape mode: Make it so points show up relitave to the prisoner and he selects the point he wants)
+
+--Functions
+[N] Return (so you can hook it up to return a function on your script or set a var for you)
+[Y] Call (Call on an object so you can spawn a UI)
+[Y] Edit (Call on an object so you can change the UI)
+[Y] Relocating (Move the UI)
+
+--Notes
+You know that old meme where keemstar is screaming over rocket league? Thats gonna be me the entire project.
+
+Thankfully it does not seem to lag the game meaning this is sort of practical
